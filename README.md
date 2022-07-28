@@ -512,4 +512,4 @@ usort($people, function($person1, $person2){
 print_r($people);
 ```
 ### conclusions
-- by default is descending
+- the sort function by default is descending
