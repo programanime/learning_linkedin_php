@@ -1,0 +1,63 @@
+[01-Aug-2022 16:29:13 UTC] PHP Warning:  require(src/templates/headerr.php): Failed to open stream: No such file or directory in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:29:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/templates/headerr.php' (include_path='.;C:\php\pear') in B:\learning_linkedin_php\server.php:20
+Stack trace:
+#0 {main}
+  thrown in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:29:14 UTC] PHP Warning:  require(src/templates/headerr.php): Failed to open stream: No such file or directory in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:29:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/templates/headerr.php' (include_path='.;C:\php\pear') in B:\learning_linkedin_php\server.php:20
+Stack trace:
+#0 {main}
+  thrown in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:00 UTC] PHP Warning:  require(src/templates/headerr.php): Failed to open stream: No such file or directory in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/templates/headerr.php' (include_path='.;C:\php\pear') in B:\learning_linkedin_php\server.php:20
+Stack trace:
+#0 {main}
+  thrown in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:00 UTC] PHP Warning:  require(src/templates/headerr.php): Failed to open stream: No such file or directory in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/templates/headerr.php' (include_path='.;C:\php\pear') in B:\learning_linkedin_php\server.php:20
+Stack trace:
+#0 {main}
+  thrown in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:01 UTC] PHP Warning:  require(src/templates/headerr.php): Failed to open stream: No such file or directory in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/templates/headerr.php' (include_path='.;C:\php\pear') in B:\learning_linkedin_php\server.php:20
+Stack trace:
+#0 {main}
+  thrown in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:02 UTC] PHP Warning:  require(src/templates/headerr.php): Failed to open stream: No such file or directory in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:33:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'src/templates/headerr.php' (include_path='.;C:\php\pear') in B:\learning_linkedin_php\server.php:20
+Stack trace:
+#0 {main}
+  thrown in B:\learning_linkedin_php\server.php on line 20
+[01-Aug-2022 16:50:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: error_reporting() expects at most 1 argument, 2 given in B:\learning_linkedin_php\src\templates\footer.php:18
+Stack trace:
+#0 B:\learning_linkedin_php\src\templates\footer.php(18): error_reporting(-1, 'someone else')
+#1 B:\learning_linkedin_php\server.php(24): include('B:\\learning_lin...')
+#2 {main}
+  thrown in B:\learning_linkedin_php\src\templates\footer.php on line 18
+[01-Aug-2022 16:50:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: error_reporting() expects at most 1 argument, 2 given in B:\learning_linkedin_php\src\templates\footer.php:18
+Stack trace:
+#0 B:\learning_linkedin_php\src\templates\footer.php(18): error_reporting(-1, 'someone else')
+#1 B:\learning_linkedin_php\server.php(24): include('B:\\learning_lin...')
+#2 {main}
+  thrown in B:\learning_linkedin_php\src\templates\footer.php on line 18
+[01-Aug-2022 17:29:05 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:06 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:20 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:21 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:21 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:21 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:22 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:29:22 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:30:05 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:30:05 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:30:06 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:30:07 UTC] ¡Lo echaste a perder!
+[01-Aug-2022 17:30:42 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:42 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:48 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:48 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:48 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:48 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:48 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:49 UTC] ¡Lo echaste a peider!
+[01-Aug-2022 17:30:49 UTC] ¡Lo echaste a peider!

@@ -72,7 +72,7 @@ echo VERSION;
 ```
 
 ```php
-const ~NAME = "";
+const NAME = "";
 echo NAME;
 ```
 
@@ -306,12 +306,13 @@ if(3 == $number) {
 }
 ```
 
-## checking if the variable exists
+# checking if the variable exists
 [file](file:b:/php/linkedin_learning_php/app.php)
 ```php
 if (isset($name)){
   
 }
+
 ```
 
  - assign the variable or the value in case the variable is null
@@ -383,7 +384,6 @@ echo  implode($results);
 print_r($results);
 ```
 
-
 # loops
 ```php
 $a = 0;
@@ -391,7 +391,6 @@ while ($a <= 10) {
   $a++;
   print "$a \n";
 }
-
 
 $i = 0;
 for ($i=0; $i < 10; $i++) { 
@@ -409,7 +408,6 @@ foreach($cars as $carValue){
   echo  $carName."\n"; 
 }
 ```
-### conclusions
 foreach go through values instead of keys
 
 # sizeof
@@ -431,8 +429,7 @@ echo substr("daniel", 2, 3);
 echo date("Y-M-d H:m", time());
 echo date("F d, j");
 ```
-### conclusions
-if you don't send any time, then  php will take time() for you
+- if you don't send any time, then  php will create time by default
 
 # strrev
 ```php
@@ -480,6 +477,7 @@ print_r($cars );
 ```
 
 # class
+# sort objects
 ```php
 class Person{
   var $name;
@@ -511,5 +509,116 @@ usort($people, function($person1, $person2){
 
 print_r($people);
 ```
-### conclusions
 - the sort function by default is descending
+
+# Server Side Includes
+
+# include, require scope
+by default each file shares the global scope
+
+- if you add the file within a function, then these variables will be local to the function
+
+- if you add the file outside any function, then, these variables will belong to the global function
+
+- all of them are relative
+
+# include
+insert the code, if the file does not exists, shows a warning
+
+# require
+insert hte code, if the file does not exists, stop the execution
+```php
+<?php 
+    require "src/variables.php";
+    echo "hi<br/>";
+    include "templates/header.php";
+    include "templates/sidebar.php";
+    include "templates/footer.php";
+    echo "this is the end<br/>";
+?>
+```
+
+# function duplicity
+php does not not let you create functions with the same name, be aware of it while you include files
+
+# include_once and require_once
+- check and add the file just one time
+- return true if the file was already added
+
+# require_once
+```php
+require_once "src/functions.php";
+```
+
+# include_once
+```php
+include_once "src/functions.php";
+```
+
+# namespace
+- declare namespace and define a function in there
+- useful for keep encapsulate the functions
+
+```php
+namespace learning;
+function power($number){
+    return  $number + 1;
+}
+```
+
+call function
+```php
+echo power(4)."<br/>";
+```
+
+call namespace function
+```php 
+echo learning\power(4)."<br/>";
+```
+
+# php.ini
+# php.ini : log_errors
+- by default prints on console, you need to set the file
+- by default the errors are printed by php
+  - you can send your own errors using error_reporting()
+```ini
+error_log = php_errors.log
+error_reporting = E_ALL
+log_errors = On
+```
+
+# error_reporting
+- if there is a blank page, then, the error reporting is off
+
+enable or disable error logging
+```php
+error_reporting(0); 
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE, "one");
+error_reporting(E_ALL, "some");
+```
+
+send errors to the php file, to some email or to an specific file
+```php
+error_log("¡Lo echaste a perder!", 0);
+error_log("¡Lo echaste a perder!", 3, "my-errors.log");
+error_log("¡Lo echaste a perder!", 1, "mail");
+```
+
+# debugging tools
+# print_r function
+useful for print the whole information about one variable
+
+# exceptions
+```php
+try{
+
+}catch(Exception $ex){
+  echo "error ";
+  echo $ex;
+  echo $ex->getMessage();
+}
+```
+
+```php
+throw new Exception(""); 
+```
